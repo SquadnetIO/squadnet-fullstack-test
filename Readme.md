@@ -19,10 +19,10 @@ For instance, a ticket to football match have VIP seat (extra $2), and normal se
 
 ### 2. Event Calendar
 #### Problem statement
-As a club, I want to schedule all our events in advance using Excel sheet. These events include both recurring and one-time events.
+As a club, I want to schedule all our events in advance using Excel sheet.
 
 #### Domain context
-For recurring event, there is option to apply change to all events or for that particular reference event. Members are also notified when an event is created, so they can RSVP or save event. There are hundreds of members per club.
+For simplicity, event is scheduled one-time only. A particular event can be available to all members, or only available for some teams within club. Some events also have location and match information. Your models should cover these information. Finally, members are also notified when an event is created, so they can RSVP or save event. There are hundreds of members per club.
 
 #### Your tasks
 - Design database models for [events](data/events.xlsx) (recurring and one-time) with ability for RSVP.
